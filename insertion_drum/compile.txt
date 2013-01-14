@@ -1,0 +1,1 @@
+g++ -D__LITTLE_ENDIAN__ -I/usr/include/stk -o test_insertion_drums test_insertion_drums.cpp -lstk -lpthread -lasound -lm

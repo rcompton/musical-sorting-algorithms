@@ -1,0 +1,8 @@
+
+To compile first install STK from http://ccrma.stanford.edu/software/stk/ and type:
+
+g++ -D__LITTLE_ENDIAN__ -I /usr/include/stk/ -o test_quicksort_drums test_quicksort_drums.cpp -lstk -lpthread -lasound -lm
+
+Better luck next time.
+
+The cpp program produces .dat output files which are readable by gnuplot via the python gnuplot module http://gnuplot-py.sourceforge.net/ . The script makeSortAVI.py plots the .dat files into .png files which are then glued together into an AVI using mencoder.

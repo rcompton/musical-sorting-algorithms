@@ -1,0 +1,2 @@
+g++ -D__LITTLE_ENDIAN__ -I/usr/include/stk -o test_quicksort_guitars test_quicksort_guitars.cpp -lstk -lpthread -lasound -lm
+
